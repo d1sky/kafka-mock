@@ -7,19 +7,6 @@ If you already have Java and Maven installed, make sure you have:
 * Java 8 (you can get away with Java 7 until we get to streaming)
 * Maven 3.X
 
-With a successful installation, you should be able to run `mvn -v` from command line.
-E.g., here is what that may look like (it may look slightly different on your machine based on the maven version and the operating system you use):
-
-```bash
-$ mvn -v
-Apache Maven 3.3.9 (bb52d8502b132ec0a5a3f4c09453c07478323dc5; 2015-11-10T10:41:47-06:00)
-Maven home: /home/pgraff/.jenv/candidates/maven/current
-Java version: 1.8.0_131, vendor: Oracle Corporation
-Java home: /usr/lib/jvm/java-8-oracle/jre
-Default locale: en_US, platform encoding: UTF-8
-OS name: "linux", version: "4.4.0-78-generic", arch: "amd64", family: "unix"
-```
-
 ## Running Kafka
 
 1. Start the Kafka and Zookeeper processes using Docker Compose in `docker/`:
